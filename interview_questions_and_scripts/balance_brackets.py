@@ -1,4 +1,5 @@
-# create a function that returns true if all brackets and kinds of brackets are balanced properly. as in (( something ))
+# create a function that returns true if all brackets and kinds of brackets are balanced properly. as in (( something )) : true
+# [( not good ] - False, not balanced
 # if mixed closed should return false - [({]}) << false
 
 def scan_string(string):
