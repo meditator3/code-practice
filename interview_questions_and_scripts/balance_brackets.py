@@ -1,3 +1,6 @@
+# create a function that returns true if all brackets and kinds of brackets are balanced properly. as in (( something ))
+# if mixed closed should return false - [({]}) << false
+
 def scan_string(string):
     length = len(string)
     which_parenthesis = {')':'(', ']':'[', '}':'{'}
